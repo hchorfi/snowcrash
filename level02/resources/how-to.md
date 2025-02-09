@@ -5,10 +5,9 @@ Tried to play with `tcpdump` but it was hard to follow the data captured
 ```
 level02@SnowCrash:~$ tcpdump -r level02.pcap -A
 ```
-After that i tried to check it's content with `wireshark` after copying it to my local machine
-(i used 14242 on the port forwarding with qemu emulator)
+After that i tried to check it's content with `wireshark` or `cloudshark.org` after copying it to my local machine
 ```
-scp -P 14242 level02@localhost:/home/user/level02/level02.pcap ./
+scp -P 4242 level02@localhost:/home/user/level02/level02.pcap ./
 ```
 Opening the file with wireshark and following the tcp stream we will have 
 ```

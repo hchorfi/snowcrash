@@ -6,7 +6,7 @@ While checking the users and groups on the snowcrash machine `/etc/passwd`, we c
 ```
 flag01:42hDRfypTqqnw:3001:3001::/home/flag/flag01:/bin/bash
 ```
-But here, we have a clear hash that mostly a DES since it doesn't start with $. and this type of hash doesn't use salts
+But here, we have a clear hash that mostly a DES(unix data encryption standard) since it doesn't start with $ and it's a 13 length char and the first 2 ones are `42` (salt)
 For this type of hashes the most used solution is brut forcing it using dictionaries.
 I used `hashcat` in the beginning but it took too much time, depending of the position of the hash on the dictionary file. (there is some example dictionaries with the most known passwords came with hashcat by default).
 Then i used `John the Ripper` and it was much faster.
